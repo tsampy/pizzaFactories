@@ -1,0 +1,30 @@
+Nous avons un client qui tiens un Pizzeria.
+Nous avons besoin d'un programme qui sépare la céation d'une Pizza
+et la préparation/commande d'une pizza.
+
+Il y'a plusieurs type de pizza : Pizza au fromage, pizza au pepperoni, pizza 4 saisons etc...
+Nous avons une fabrique qui permet de créer des Pizzas.
+Nous avons également notre Shop Pizzeria qui lui, va permettre de commander une pizza.
+La commande d'une pizza suit cet ordre : on crée notre pizza, on prépare la pizza,
+on la cuit et on la met en boite.
+
+Créer un programme qui demande au client la pizza qu'il souhaite commander
+(vous pouvez lui afficher les choix disponibles).
+Le client va commander la pizza à notre shop pizzeria.
+
+----------------------------------------------------
+
+Nous reprenons l'exercice précédent sur la Pizzeria.
+	La Pizzeria propose plusieurs type de pizzas (les plus courants) :
+		- Pizzas au fromage
+		- Pizzas aux fruits de mers
+		(Etc...)
+
+	Notre pizzeria propose plusieurs spécialités : les pizzas italiennes, les pizza new yorkaise etc...
+	Ces spécialités vont revisités, à leur façon, chaque type de Pizza
+	(Par exemple: les pizzas italienne au fromage ont comme ingrédient principal la mozzarella,
+	alors que celles de new york vont utiliser principalement du bleu).
+
+
+	Créer une Fabrique Abstraite qui nous permet de créer plusieurs types de pizzas
+	en fonction de ce que le client veux.
